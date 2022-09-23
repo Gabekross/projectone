@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 
 import crayons
 # fnction to convert string to list
-from this import d
-
 
 def Convert(string):
     li = list(string.split(" "))
@@ -47,59 +45,81 @@ def main():
             zodiac_sign = "Aquarius"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
 
+            print(f"{crayons.green('Aquarius Traits')}")
+
+
         elif ((30 > day > 18) and (date_of_birth[0] == "february")) or ((21 > day > 0) and (date_of_birth[0] == "march")):
             zodiac_sign = "Pisces"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+
+            print(f"{crayons.green('Pisces Traits')}")
+
 
         elif ((32 > day > 20) and (date_of_birth[0] == "march")) or ((20 > day > 0) and (date_of_birth[0] == "april")):
 
             zodiac_sign = "Aries"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
 
+            print(f"{crayons.green('Aries Traits')}")
+
+
         elif ((31 > day > 19) and (date_of_birth[0] == "april")) or ((21 > day > 0) and (date_of_birth[0] == "may")):
 
             zodiac_sign = "Taurus"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
 
+            print(f"{crayons.green('Taurus Traits')}")
+
         elif ((32 > day > 20) and (date_of_birth[0] == "may")) or ((21 > day > 0) and (date_of_birth[0] == "june")):
 
             zodiac_sign = "Pisces"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+            print(f"{crayons.green('Pisces Traits')}")
 
         elif ((31 > day > 20) and (date_of_birth[0] == "june")) or ((23 > day > 0) and (date_of_birth[0] == "july")):
 
             zodiac_sign = "Cancer"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+            print(f"{crayons.green('Cancer Traits')}")
         # CHECK IF USER INPUT MEETS LEO CRITERIA
 
         elif ((32 > day > 22) and (date_of_birth[0] == "july")) or ((18 > day > 0) and (date_of_birth[0] == "august")):
 
             zodiac_sign = "Leo"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+            print(f"{crayons.green('Leo Traits')}")
 
         # CHECK IF USER INPUT MEETS VIRGO CRITERIA
         elif ((32 > day > 22) and (date_of_birth[0] == "august")) or ((23 > day > 0) and (date_of_birth[0] == "september")):
             zodiac_sign = "Virgo"
 
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+            print(f"{crayons.green('Virgo Traits')}")
 
         # CHECK IF USER INPUT MEETS LIBRA CRITERIA
         elif ((31 > day > 22) and (date_of_birth[0] == "september")) or ((23 > day > 0) and (date_of_birth[0] == "october")):
             zodiac_sign = "Libra"
 
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+            print(f"{crayons.green('Libra Traits')}")
 
         # CHECK IF USER INPUT MEETS SCORPIO CRITERIA
         elif ((32 > day > 22) and (date_of_birth[0] == "october")) or ((22 > day > 0) and (date_of_birth[0] == "november")):
             zodiac_sign = "Scorpio"
 
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+            print(f"{crayons.green('Scorpio Traits')}")
 
         # CHECK IF USER INPUT MEETS SAGITTARIUS CRITERIA
         elif ((31 > day > 21) and (date_of_birth[0] == "november")) or ((22 > day > 0) and (date_of_birth[0] == "december")):
             zodiac_sign = "Saggitarius"
 
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+
+            print(f"{crayons.green('Sagittarius Traits')}")
+
+            print(
+                f"{crayons.blue('Strengths: Generous, idealistic, great sense of humors')}")
 
         # CHECK IF USER INPUT MEETS SAGITTARIUS CRITERIA
         elif ((32 > day > 21) and (date_of_birth[0] == "december")) or ((20 > day > 0) and (date_of_birth[0] == "january")):
@@ -115,5 +135,8 @@ def main():
 
     print(f"Have a nice day {user_name}.")
 
-
 main()
+
+
+
+
