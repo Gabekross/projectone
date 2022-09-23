@@ -20,7 +20,7 @@ dob = dob.lower()
 
 #convert dob to a list
 date_of_birth = Convert(dob)
-#Convert the day in user to an integer and save in variable day
+#Convert the day in user to an integer and save in variable daygit
 day =int(date_of_birth[-1])
 
 #CHECK IF USER INPUT MEETS aQUARIUS CRITERIA
