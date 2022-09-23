@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 
 import crayons
 # fnction to convert string to list
-from this import d
-
 
 def Convert(string):
     li = list(string.split(" "))
@@ -46,23 +44,30 @@ def main():
         if ((32 > day > 19) and (date_of_birth[0] == "january")) or ((19 > day > 0) and (date_of_birth[0] == "february")):
             zodiac_sign = "Aquarius"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+
             print(f"{crayons.green('Aquarius Traits')}")
+
 
         elif ((30 > day > 18) and (date_of_birth[0] == "february")) or ((21 > day > 0) and (date_of_birth[0] == "march")):
             zodiac_sign = "Pisces"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+
             print(f"{crayons.green('Pisces Traits')}")
+
 
         elif ((32 > day > 20) and (date_of_birth[0] == "march")) or ((20 > day > 0) and (date_of_birth[0] == "april")):
 
             zodiac_sign = "Aries"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+
             print(f"{crayons.green('Aries Traits')}")
+
 
         elif ((31 > day > 19) and (date_of_birth[0] == "april")) or ((21 > day > 0) and (date_of_birth[0] == "may")):
 
             zodiac_sign = "Taurus"
             print(f"Hello {user_name}, your zodiac sign is {zodiac_sign}.")
+
             print(f"{crayons.green('Taurus Traits')}")
 
         elif ((32 > day > 20) and (date_of_birth[0] == "may")) or ((21 > day > 0) and (date_of_birth[0] == "june")):
@@ -130,7 +135,8 @@ def main():
 
     print(f"Have a nice day {user_name}.")
 
-
 main()
+
+
 
 
