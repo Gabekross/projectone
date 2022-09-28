@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+"""A simple script to predict 
+   a users zodiac sign | olugabriel80@gmail.com"""
+
 #importing crayons library . This helps add colors to text ouput in terminal
 import crayons
 # fnction to convert string to list
@@ -148,10 +151,14 @@ def main():
             print(
                 f"{crayons.green('Capricorn Traits : Visit https://www.zodiacsign.com/')}")
 
+        # Ensure user enters a valid date
+
         else:
             print("Enter a valid date: ")
 
-        #Prompt user to exit or continue using the program    
+        # Prompt user to exit or continue using the program    
+
+        print(" ")
 
         print("Enter 1 to continue using Zodiac Predictor or 0 to exit: ")
 
@@ -164,8 +171,9 @@ def main():
 
     print(f"Have a nice day {user_name}.")
 
-main()
 
+if __name__ == "__main__":
+    main()
 
 
 
